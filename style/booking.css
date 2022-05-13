@@ -1,0 +1,65 @@
+.booking {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.booking--color {
+  background-color: #440f51;
+}
+
+.booking__title {
+  margin-bottom: 47px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hall {
+  border: 0 none;
+}
+
+.hall__legend {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hall__wrapp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hall__input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.hall__btn {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 55px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: top;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hall__input:checked+.hall__btn {
+  background-color: #056478;
+}

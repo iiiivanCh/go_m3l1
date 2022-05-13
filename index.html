@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>GAME OVER</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapp">
+        <a href="#" class="header__logo-link">
+          <img src="img/logo.svg" alt="логотип сайта" width="120" height="66" class="header__logo-img">
+        </a>
+        <nav class="header__nav">
+          <ul class="nav">
+            <li class="nav__item"><a href="" class="nav__item-link">залы</a></li>
+            <li class="nav__item"><a href="" class="nav__item-link">о нас</a></li>
+            <li class="nav__item"><a href="" class="nav__item-link">бронь</a></li>
+            <li class="nav__item"><a href="" class="nav__item-link">отзывы</a></li>
+            <li class="nav__item"><a href="" class="nav__item-link">контакты</a></li>
+          </ul>
+        </nav>
+        <button class="header__button">заказать звонок</button>
+      </div>
+      <!-- /.header__wrapp -->
+    </div>
+    <!-- /.container -->
+  </header>
+  <section class="game">
+    <div class="container">
+      <h1 class="game__title">GAME OVER</h1>
+      <p class="game__text">Новый формат игр и отдыха</p>
+      <div class="game__marketing">
+        <p class="game__marketing-block">
+          <span class="game__marketing-word1">4</span> Тематических зала
+        </p>
+        <p class="game__marketing-block">
+          <span class="game__marketing-word2">new</span> Новейшая аппаратура
+        </p>
+      </div>
+      <a href="#booking" class="game__booking">Забронировать</a>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.game -->
+  <section class="all">
+    <div class="container">
+      <h2 class="all__title">У нас есть все для классного
+        отдыха с друзьями!</h2>
+      <ul class="all__list">
+        <li class="all__item all__item--top">
+          <img src="img/s2i1.jpg" alt="мужчина в VR очках" width="380" height="228" class="all__item-img">
+          <p class="all__item-text">VR очки</p>
+        </li>
+        <li class="all__item">
+          <img src="img/s2i2.jpg" alt="рука управляет установкой аудио-системы 5.1" width="380" height="228"
+            class="all__item-img">
+          <p class="all__item-text">Аудио-система 5.1</p>
+          <p class="all__item-text">с отличным звуком</p>
+        </li>
+        <li class="all__item all__item--top">
+          <img src="img/s2i3.jpg" alt="женщина на сцене поет в караоке" width="380" height="228" class="all__item-img">
+          <p class="all__item-text">Караоке (4 микрофона)</p>
+        </li>
+        <li class="all__item all__item--top">
+          <img src="img/s2i4.jpg" alt="четыре человека за столом играют в какю-то китайскую игру" width="380"
+            height="228" class="all__item-img">
+          <p class="all__item-text">Настольные игры</p>
+        </li>
+        <li class="all__item">
+          <img src="img/s2i5.jpg" alt="экран телевизора с эмблемой нетфликс" width="380" height="228"
+            class="all__item-img all__item-img--m">
+          <p class="all__item-text">Кино сервисы Netflix, IVI,</p>
+          <p class="all__item-text all__item-text">MegoGo, КиноПоиск, Okko</p>
+        </li>
+        <li class="all__item all__item--top">
+          <img src="img/s2i6.jpg" alt="полный набор для двоих для игры в плейстейшн" width="380" height="228"
+            class="all__item-img">
+          <p class="all__item-text">РlаyStаtiоn 5</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- /.all -->
+  <section class="halls">
+    <div class="container">
+      <h2 class="halls__title">наши залы</h2>
+      <ul class="halls__list">
+        <li class="halls__item halls__item--vibes">
+          <p class="item-text">80’s vibes</p>
+        </li>
+        <li class="halls__item halls__item--star">
+          <p class="item-text">Star wars</p>
+        </li>
+        <li class="halls__item halls__item--west">
+          <p class="item-text">wild west</p>
+        </li>
+        <li class="halls__item halls__item--neon">
+          <p class="item-text">neon style</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- /.halls -->
+  <section class="booking booking--color">
+    <div class="container">
+      <h2 class="booking__title">Забронировать зал просто</h2>
+      <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="booking__form">
+        <fieldset class="hall">
+          <legend class="hall__legend">Выбери зал</legend>
+          <div class="hall__wrapp">
+            <input type="radio" name="hall" id="vibes" class="hall__input" />
+            <label for="vibes" class="hall__btn">80's vibes</label>
+            <input type="radio" name="hall" id="wars" class="hall__input" />
+            <label for="wars" class="hall__btn">star wars</label>
+            <input type="radio" name="hall" id="west" class="hall__input" />
+            <label for="west" class="hall__btn">wild west</label>
+            <input type="radio" name="hall" id="neon" class="hall__input" />
+            <label for="neon" class="hall__btn">neon style</label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+  <!-- /.booking -->
+</body>
+
+</html>
