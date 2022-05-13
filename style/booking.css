@@ -17,10 +17,11 @@
 }
 
 .hall {
-  border: 0 none;
+  margin-bottom: 60px;
 }
 
-.hall__legend {
+.hall__legend,
+.set__legend {
   margin-bottom: 40px;
   text-align: center;
   font-weight: 700;
@@ -63,3 +64,141 @@
 .hall__input:checked+.hall__btn {
   background-color: #056478;
 }
+
+.set {
+  padding-bottom: 65px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.set__legend {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.set__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.set__legend-col {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.set__label-r {
+  position: relative;
+}
+
+.set__input-r {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+}
+
+.set__input-r:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  display: block;
+  width: 27px;
+  height: 27px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.set__input-r:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-color: #056478;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.set__input-r:checked::after {
+  opacity: 1;
+}
+
+.set__p {
+  padding-left: 40px;
+}
+
+
+.set__input-ch {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+}
+
+.set__input-ch:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+}
+
+.set__input-ch:after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-color: #056478;
+  opacity: 0;
+}
+
+.set__input-ch:checked::after {
+  opacity: 1;
+}
+
+.personal__legend {
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.personal__wrapp {
+  display: flex;
+  justify-content: space-around;
+}
+
+.personal__block1-top {
+  display: flex;
+  gap: 32px;
+}
+
+.personal__date-in {
+  width: 134px;
+  height: 52px;
+}
+
+.personal__time-in {
+  width: 134px;
+  height: 52px;
+}
+
+.personal

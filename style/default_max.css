@@ -52,6 +52,7 @@ fieldset {
 /* iiiivan добавил сам */
 fieldset {
   padding: 0;
+  border: 0 none;
 }
 
 iframe {

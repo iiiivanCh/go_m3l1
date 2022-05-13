@@ -124,6 +124,90 @@
             <label for="neon" class="hall__btn">neon style</label>
           </div>
         </fieldset>
+        <fieldset class="set">
+          <legend class="set__legend">Собери набор развлечений</legend>
+          <fieldset class="set__fieldset">
+            <legend class="set__legend-col">Приставка:</legend>
+            <label for="ps" class="set__label-r">
+              <input type="radio" name="set-r" id="ps" class="set__input-r" />
+              <p class="set__p">PlayStation 5</p>
+            </label>
+            <label for="smd" class="set__label-r">
+              <input type="radio" name="set-r" id="smd" class="set__input-r" />
+              <p class="set__p">Sega Mega Drive</p>
+            </label>
+            <label for="xbox" class="set__label-r">
+              <input type="radio" name="set-r" id="xbox" class="set__input-r" />
+              <p class="set__p">X-box One S</p>
+            </label>
+            <label for="dendy" class="set__label-r">
+              <input type="radio" name="set-r" id="dendy" class="set__input-r" />
+              <p class="set__p">Dendy</p>
+            </label>
+          </fieldset>
+          <fieldset class="set__fieldset">
+            <legend class="set__legend-col">Настольные игры:</legend>
+            <label for="jenga" class="set__label-ch">
+              <input type="checkbox" name="jenga" id="jenga" class="set__input-ch" />
+              <p class="set__p">Jenga</p>
+            </label>
+            <label for="monopoly" class="set__label-ch">
+              <input type="checkbox" name="monopoly" id="monopoly" class="set__input-ch" />
+              <p class="set__p">Monopoly</p>
+            </label>
+            <label for="manchkin" class="set__label-ch">
+              <input type="checkbox" name="manchkin" id="manchkin" class="set__input-ch" />
+              <p class="set__p">Манчкин</p>
+            </label>
+            <label for="alias" class="set__label-ch">
+              <input type="checkbox" name="alias" id="alias" class="set__input-ch" />
+              <p class="set__p">Alias</p>
+            </label>
+          </fieldset>
+          <fieldset class="set__fieldset">
+            <legend class="set__legend-col">Дополнительно:</legend>
+            <label for="kar" class="set__label-ch">
+              <input type="checkbox" name="kar" id="kar" class="set__input-ch" />
+              <p class="set__p">Караоке</p>
+            </label>
+            <label for="vr" class="set__label-ch">
+              <input type="checkbox" name="vr" id="vr" class="set__input-ch" />
+              <p class="set__p">VR</p>
+            </label>
+          </fieldset>
+        </fieldset>
+        <fieldset class="personal">
+          <legend class="personal__legend">Выбери дату и время</legend>
+          <div class="personal__wrapp">
+            <div class="personal__block1">
+              <div class="personal__block1-top">
+                <input type="date" name="date" id="date" class="personal__date-in" />
+                <input type="time" name="time" id="time" class="personal__time-in" />
+              </div>
+              <input type="number" name="npeople" id="npeople" class="personal__number-in" />
+            </div>
+            <div class="personal__block2">
+              <label for="name" class="personal__name-l">Имя</label>
+              <input type="text" name="name" id="name" class="personal__name-in" />
+              <label for="surname" class="personal__surname-l">
+                Фамилия
+              </label>
+              <input type="text" name="surname" id="surname" class="personal__surname-in" />
+            </div>
+            <div class="personal__block3">
+              <label for="ntel" class="personal__ntel-l">
+                Телефон
+              </label>
+              <input type="tel" name="ntel" id="ntel" maxlength="16"
+                pattern="^\+[7]-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}$" title="+7-000-000-00-00"
+                class="personal__ntel-in" />
+              <label for="email" class="personal__email-l">
+                E-mail
+              </label>
+              <input type="email" name="email" id="email" class="personal__ntel-in" />
+            </div>
+          </div>
+        </fieldset>
       </form>
     </div>
   </section>
