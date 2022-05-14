@@ -24,7 +24,7 @@
 .game__text {
   margin-bottom: 30px;
   padding-left: 100px;
-  padding-right: 400px;
+  width: 700px;
   font-weight: 400;
   font-size: 28px;
   line-height: 50px;
@@ -67,9 +67,11 @@
   width: 374px;
   background-color: #6C0287;
   border-radius: 10px;
+  border: 0 none;
   font-weight: 700;
   font-size: 26px;
   line-height: 30px;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
