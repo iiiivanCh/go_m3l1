@@ -39,14 +39,17 @@
 
 .halls__item--star {
   background-image: url(../img/s3i2.jpg);
+  background-size: cover;
 }
 
 .halls__item--west {
   background-image: url(../img/s3i3.jpg);
+  background-size: cover;
 }
 
 .halls__item--neon {
   background-image: url(../img/s3i4.jpg);
+  background-size: cover;
 }
 
 .item-text {
