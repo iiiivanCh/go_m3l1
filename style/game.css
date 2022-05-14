@@ -1,6 +1,7 @@
 .game {
   padding-top: 12px;
-  padding-bottom: 220px;
+  padding-bottom: 20px;
+  min-height: 900px;
 }
 
 .game__title {

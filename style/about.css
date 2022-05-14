@@ -32,7 +32,7 @@
 
 .about__q-text {
   position: relative;
-  margin-left: 55px;
+  padding-left: 55px;
   font-size: 44px;
   line-height: 50px;
   text-transform: uppercase;
@@ -46,7 +46,7 @@
   content: '\201C';
   position: absolute;
   top: -7px;
-  left: -55px;
+  left: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 50px;
