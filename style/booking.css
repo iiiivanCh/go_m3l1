@@ -1,6 +1,6 @@
 .booking {
   padding-top: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .booking--color {
@@ -20,9 +20,9 @@
   margin-bottom: 60px;
 }
 
-.hall__legend,
-.set__legend {
+.hall__legend {
   margin-bottom: 40px;
+  width: 100%;
   text-align: center;
   font-weight: 700;
   font-size: 24px;
@@ -73,6 +73,7 @@
 
 .set__legend {
   margin-bottom: 40px;
+  width: 100%;
   text-align: center;
   font-weight: 700;
   font-size: 24px;
@@ -173,8 +174,13 @@
   opacity: 1;
 }
 
+.personal {
+  /* margin-bottom: 40px; */
+}
+
 .personal__legend {
-  margin-bottom: 60px;
+  margin-bottom: 38px;
+  width: 100%;
   text-align: center;
   font-weight: 700;
   font-size: 24px;
@@ -183,12 +189,21 @@
 
 .personal__wrapp {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 48px;
+}
+
+.personal__block1 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .personal__block1-top {
+  padding-top: 22px;
+  margin-bottom: 36px;
   display: flex;
-  gap: 32px;
+  justify-content: space-between;
 }
 
 .personal__date-in {
@@ -196,9 +211,97 @@
   height: 52px;
 }
 
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  width: 15px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+} */
+
 .personal__time-in {
   width: 134px;
   height: 52px;
 }
 
-.personal
+.personal__number-in {
+  width: 100%;
+  height: 52px;
+  display: block;
+}
+
+.personal__block2 {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal__name-l {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.personal__name-in {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 52px;
+}
+
+.personal__surname-l {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.personal__surname-in {
+  width: 100%;
+  height: 52px;
+}
+
+.personal__block3 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal__ntel-l {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.personal__ntel-in {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 52px;
+}
+
+.personal__email-l {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.personal__email-in {
+  margin-bottom: 40px;
+  width: 100%;
+  height: 52px;
+}
+
+.booking__btn {
+  padding: 16px 50px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #6C0287;
+  background: #FFFFFF;
+  border: 0 none;
+  border-radius: 10px;
+}
